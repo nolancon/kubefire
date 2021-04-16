@@ -30,7 +30,7 @@ const (
 
 var (
 	downloadScriptEndpointFormat = fmt.Sprintf(
-		"https://raw.githubusercontent.com/innobead/kubefire/%s/scripts/%%s",
+		"https://raw.githubusercontent.com/nolancon/kubefire/%s/scripts/%%s",
 		intconfig.GetTagVersionForDownloadScript(intconfig.TagVersion),
 	)
 )

@@ -6,13 +6,13 @@ import (
 
 var (
 	BuildVersion = ""
-	TagVersion   = "master"
+	TagVersion   = "hack"
 )
 
 //GetTagVersionForDownloadScript get the tag version to use in the URL of download scripts. If not from release tag, the return will be master.
 func GetTagVersionForDownloadScript(version string) string {
 	if !IsReleasedTagVersion(version) {
-		return "master"
+		return "hack"
 	}
 
 	return version
