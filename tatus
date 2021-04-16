@@ -1,0 +1,1271 @@
+commit afcba64efcfc6feaa64b5184cfb4e35903747fd9
+Author: nolancon <conor.nolan@intel.com>
+Date:   Fri Apr 16 14:51:41 2021 +0100
+
+    PATH to Makefile
+
+commit bcaa91f3d50b61e1304ba844ad77bb9b6bf64441
+Author: nolancon <conor.nolan@intel.com>
+Date:   Fri Apr 16 14:48:00 2021 +0100
+
+    swap nolancon/hack for innobead/master in path
+
+commit f2fa3815aa9fdaa34a624f29d98c0c542baa0975
+Author: David Ko <dko@suse.com>
+Date:   Fri Feb 5 12:33:38 2021 +0800
+
+    Update go.mod to go 1.15
+
+commit 7982e67e46ff278890b42b74e0bc138a108ad43b
+Author: David Ko <dko@suse.com>
+Date:   Fri Feb 5 12:32:06 2021 +0800
+
+    Fix #43 update containerd 1.4.3 and runc 1.0.0-rc93
+
+commit 7b90003742c2566bfbc25ed5602702a5f22518ad
+Author: David Ko <dko@suse.com>
+Date:   Fri Jan 8 08:37:51 2021 +0800
+
+    Update readme
+
+commit e1c3babdec412f11c19d2bf30d2b43d8e7e37133
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 17:40:07 2021 +0800
+
+    Update readme
+
+commit 2608d454ed8809a991a790e80b884ef5a9f9255a
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 17:31:08 2021 +0800
+
+    Fix #42 support k0s
+
+commit 8966181876776ca151d249116d618dc2e47af6db
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 16:10:32 2021 +0800
+
+    Fix #42 run k0s via systemd
+
+commit d0adb445f61bbbd007749348e940598467f711ff
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 15:41:29 2021 +0800
+
+    Fix #42 run k0s via systemd
+
+commit 0318cd670250af491e93cd324dc2ebcb24f250eb
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 13:35:32 2021 +0800
+
+    Fix #42 add k0s install pre script
+
+commit 328918cc2afb40b27b5e742cf8c459a441dff1ef
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 13:11:48 2021 +0800
+
+    Fix #41 update rke2 pre install script
+
+commit 52afa17e4eae0de11c3d20fbb1dafd0674cdbc8f
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 13:05:54 2021 +0800
+
+    Fix #41 update rke2 pre install script
+
+commit 34c3c50d287c48594fdf5833dd83d874e441e8a0
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 02:31:02 2021 +0800
+
+    Fix #41 support rke2
+
+commit 8c22d3cec7b34e9615b49236544c16b302ef331c
+Author: David Ko <dko@suse.com>
+Date:   Thu Jan 7 01:17:18 2021 +0800
+
+    Fix #41 add rke2 install script
+
+commit 1c7750ea2b75b8096a8a7916df4dd8cb8ef47c1f
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 11:56:57 2020 +0800
+
+    Update readme
+
+commit 0d05cf4fc39cc6c026697a59f0726aa48569fcb2
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 11:33:54 2020 +0800
+
+    Add demo.svg
+
+commit f3fd75505b24644b6ac4f3f6536a4b4d2f342545
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 08:01:57 2020 +0800
+
+    Fix #39 have specific runtime and network option for start command
+
+commit 15a991b08d4d0aa3e822f8a550aeeddca517d83e
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 01:37:07 2020 +0800
+
+    Fix #39 fix ignite API compatible issue when upgrading to 0.8.0
+
+commit e77ebe2a7d0c8a3ba4c4f0053e7f990db11f662c
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 01:28:03 2020 +0800
+
+    Fix #31 update readme
+
+commit 6c11413d55e781dac4a3672831eea799c97ba1ad
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 01:23:46 2020 +0800
+
+    Fix #31 update readme
+
+commit c94dc72b4849fd2e6781cc87e7e7355f503b4555
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 01:05:07 2020 +0800
+
+    Fix #31 automatically get the latest RKE release version
+
+commit 8f8dcd1a1346e596c9ba889bfc002556d1a82ac0
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 00:39:37 2020 +0800
+
+    Fix #31 support RKE deployment
+
+commit f9aebb47b534c5090d5133aea22e2d0e96b16ac2
+Author: David Ko <dko@suse.com>
+Date:   Mon Nov 23 00:10:59 2020 +0800
+
+    Fix #31 make rke install script for host and node
+
+commit 2d064dcf9bc178b36dc828009abe22f67fe999de
+Author: David Ko <dko@suse.com>
+Date:   Sun Nov 22 22:42:14 2020 +0800
+
+    Fix #31 add rke installer script
+
+commit 59dfe605160aa9b5288a1580e483af5001fe60bf
+Author: David Ko <dko@suse.com>
+Date:   Sun Nov 22 22:33:22 2020 +0800
+
+    Fix #40 download k3s intaller script with qualified version name
+
+commit a7d0287bf85966361e8cd913e4239be80ccb1c8b
+Author: David Ko <dko@suse.com>
+Date:   Sun Nov 22 22:31:13 2020 +0800
+
+    Fix #40 download k3s intaller script with qualified version name
+
+commit 2f100f4c8db63527b7971e5d2dc2cbfbf45927cf
+Author: David Ko <dko@suse.com>
+Date:   Fri Nov 20 01:12:05 2020 +0800
+
+    Update README.md
+
+commit f26f66d5e6ded6470bf70ee96a7be9c81dea185c
+Author: David Ko <dko@suse.com>
+Date:   Mon Oct 26 15:20:43 2020 +0800
+
+    Add short option f for force option
+
+commit 0389bf807fda294ddb923846b5301dc01afbf6f3
+Author: David Ko <dko@suse.com>
+Date:   Fri Oct 16 04:32:30 2020 +0800
+
+    Fix #38: fix deployment with specific k8s version
+
+commit 906fd54cbea4ac64f8cfca12c0979a7f29bd9fa3
+Author: David Ko <dko@suse.com>
+Date:   Fri Oct 16 03:58:11 2020 +0800
+
+    Fix #37: sort major.minor of kubeadm versions when getting the latest minor versions
+
+commit 96bcb9596e85bcee8a208a6756f20762f2a51c95
+Author: David Ko <dko@suse.com>
+Date:   Wed Oct 14 12:08:07 2020 +0800
+
+    Fix #34: use correct chgrp when configuring containerd service file
+
+commit 8d8a41334fc7d85bcdd88c62c3836d3dd1223255
+Author: David Ko <dko@suse.com>
+Date:   Wed Oct 14 12:04:25 2020 +0800
+
+    Fix #34: use correct chgrp when configuring containerd service file
+
+commit 468662e65c3b0d97495abbf5704b969f087cedbb
+Author: David Ko <dko@suse.com>
+Date:   Wed Oct 14 11:48:24 2020 +0800
+
+    Fix #35: fix K3s agent install command broken
+
+commit 9205606b3443db19bdadea57bc93f33829813adb
+Author: David Ko <dko@suse.com>
+Date:   Wed Sep 30 13:38:04 2020 +0800
+
+    Fix #33: update readme
+
+commit 029262db657164fc7f408ac9d648416e2d563cf8
+Author: David Ko <dko@suse.com>
+Date:   Wed Sep 30 13:35:49 2020 +0800
+
+    Fix #33: add cache commands
+
+commit 00c4f6f1e175055340d516e4136e5ad2d2ecd46b
+Author: David Ko <dko@suse.com>
+Date:   Tue Sep 29 21:30:32 2020 +0800
+
+    Fix #32 remove invalid pkg
+
+commit 4bdab113679210fbe20356cf8cab4f7063c3a763
+Author: David Ko <dko@suse.com>
+Date:   Tue Sep 29 20:51:11 2020 +0800
+
+    Fix #32 fix ubuntu rootfs image
+
+commit 24f18b4d0bce3cab252a3f97372c29c5a371b6b6
+Author: David Ko <dko@suse.com>
+Date:   Fri Sep 25 20:04:49 2020 +0800
+
+    Delete cluster.yaml
+
+commit c05168abddf93cc18f1e629cf5ca0957e556caeb
+Author: David Ko <dko@suse.com>
+Date:   Fri Sep 25 01:10:10 2020 +0800
+
+    Update readme
+
+commit 965e8970c8fbd26e84b5d935d88122cfc00c036d
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 23:05:27 2020 +0800
+
+    Update image info
+
+commit eafa7dbeb94b1a0a23949373434f0786985f90a6
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 22:48:56 2020 +0800
+
+    Update the download kubefire name with os and arch
+
+commit 344f34df7db6cfc26f6a69e937adbcd0c565751b
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 22:32:14 2020 +0800
+
+    Update readme
+
+commit e6573e80fabdad6cefa9da4836d7a6cbdc2d23c7
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 22:29:54 2020 +0800
+
+    Fix #26: add hack script to prepare verification env
+
+commit 8ebf9dec0442700dde13e5606593519ac49cf56d
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 22:19:22 2020 +0800
+
+    Fix #26: udpate readme
+
+commit 9dec3d752c5ebdd9996b3a752fe922bc2d57ccfb
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 21:35:58 2020 +0800
+
+    Add error check for some curl downloads
+
+commit 5cc13251a0ece71824f28a45899aafbc551d5ba2
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 21:13:15 2020 +0800
+
+    Fix #28: update containerd to 1.4.1 and cni plugins
+
+commit 6a9ae32b500278ee440b5605bd4b746287fc91f7
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 21:02:37 2020 +0800
+
+    Fix #26: for arm64, k3s supported only
+
+commit 60269461a825a177216093fc6ae1ac6269838fbe
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 17:13:03 2020 +0800
+
+    Ignore error when downloading host-loca-rev driver temporarily
+
+commit 687716174fbf4d709fa5d06f557067b4410a4ea5
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 17:09:06 2020 +0800
+
+    Adapt virtualization check in ARM64
+
+commit 2a4d561d1c7d0ddcdf34d35163d833d35878877d
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 24 16:58:34 2020 +0800
+
+    Change error to warning message when getting cniVersion info
+
+commit 8f6a2c7af2bbac86e1b4c73a2f4dc9754578a5d4
+Author: David Ko <dko@suse.com>
+Date:   Wed Sep 23 14:05:51 2020 +0800
+
+    Fix #26: support ARM artifacts
+
+commit ec1dab103b167b2775a8b272d2f6c972cd8630ec
+Author: David Ko <dko@suse.com>
+Date:   Wed Sep 16 09:55:12 2020 +0800
+
+    Fix test case
+
+commit 015c30d827560911aeeb288a1a87b24480941068
+Author: David Ko <dko@suse.com>
+Date:   Wed Sep 16 01:54:42 2020 +0800
+
+    Add submariner demo script
+
+commit 9878571f3b06bde98b73bd979dbfbc7559182bb8
+Author: David Ko <dko@suse.com>
+Date:   Tue Sep 15 23:16:17 2020 +0800
+
+    Fix #25 make extra options behavior consistent for bootstrappers
+
+commit 0b2be9c8fd08fa3db683768ff24a0a95186eaadd
+Author: David Ko <dko@suse.com>
+Date:   Tue Sep 15 20:25:33 2020 +0800
+
+    Fix #25 support 'kubeadm init' options
+
+commit aaca0a5f9f229ef72f7c0cb0e4f3803dbf84072f
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 16:48:50 2020 +0800
+
+    Improve default output and move 'output' flag from global flags
+
+commit 10046acb0edae80b9a6f5658630602c6639d323f
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 02:24:42 2020 +0800
+
+    Fix typo
+
+commit 90d26ae34407e102e05159e4077b9a2d482bf60c
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 02:23:57 2020 +0800
+
+    Fix #9 update readme
+
+commit c8a9ac584aed9ed175157ff97072c5a7035fabfe
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 02:23:07 2020 +0800
+
+    Fix #9 update readme
+
+commit a8b9616baf3a1552af5fe96cd47a412f83be6ae6
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 02:07:01 2020 +0800
+
+    Fix #9 support '--config' to create cluster
+
+commit 4388db70f9b52422de5d1e99b2585f4adfbb2e1e
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 01:49:27 2020 +0800
+
+    Fix #22 add 'cluster config-template and config commands'
+
+commit 73cf46285476da9ff95d8c1e43932600ef5d79f9
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 01:10:06 2020 +0800
+
+    Fix #7 fix typo from 'opts' to 'options'
+
+commit ba92d45233924964d0f881dec48f8c05783afe0d
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 01:02:40 2020 +0800
+
+    Fix #7 add test cases to cover many same extra options
+
+commit 77829c0b84a73a44c7e6a47b892365659ed141b0
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 00:54:24 2020 +0800
+
+    Fix #21 remove admin node support
+
+commit 50ba645f4f780591d6a9bd2bebe584dd65beb1b0
+Author: David Ko <dko@suse.com>
+Date:   Mon Sep 14 00:49:22 2020 +0800
+
+    Fix #7 change cluster extra options config to use structure way instead of single string
+
+commit bfbf37b3d956546b98c983e254cd853e5f90dfae
+Author: David Ko <dko@suse.com>
+Date:   Sun Sep 13 02:06:14 2020 +0800
+
+    Fix #7 support customized control plane configurations for kubeadm
+
+commit c491656884ad8216556f7095191d1042a197b6b1
+Author: David Ko <dko@suse.com>
+Date:   Sat Sep 12 23:42:00 2020 +0800
+
+    Fix #20 support image command
+
+commit ff80bb25a1488ce6632d02ee92f1005aa43e5a39
+Author: David Ko <dko@suse.com>
+Date:   Sat Sep 12 20:07:50 2020 +0800
+
+    Fix #19 add ubuntu 20.04 image
+
+commit ffaf6227900a84effa2fc94970e18e5bce985aa3
+Author: David Ko <dko@suse.com>
+Date:   Sat Sep 12 08:43:41 2020 +0800
+
+    Fix #18 build image for ghcr.io
+
+commit 9eef28e8a16f8d73cf15076fdaea33ee4d96fb4e
+Author: David Ko <dko@suse.com>
+Date:   Thu Sep 10 02:24:51 2020 +0800
+
+    Fix #17 incorrect minor version calcuation
+
+commit 1a747b02f7edcef98e3bb8bf6431bd7acd9e1b33
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 27 10:51:57 2020 +0800
+
+    Fix #14 invalid ctr-tool version selected when deploying kubeadm/1.19.0
+
+commit 297ddaaf8fe9b9e3b2be765cfe559626fdc2239a
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 10:39:48 2020 +0800
+
+    Update changelog action in release pipeline
+
+commit d25159379c7d27647624d62a9369b7fea0f35651
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 10:11:15 2020 +0800
+
+    Update changelog action in release pipeline
+
+commit 22b2a1f8ac69c06e708637bc86cef04754a11320
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 09:47:54 2020 +0800
+
+    Update changelog action in release pipeline
+
+commit 93fc4df2e956b8d3663ffb9923ccef2e97e56edf
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 02:33:52 2020 +0800
+
+    Fix the release pipeline
+
+commit c80f42a4062aad2761a0a8cc9f5bd745cede33c1
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 02:29:37 2020 +0800
+
+    Update the error message of incorrect prerequisites
+
+commit ee6bee4a6995ec62b3c63e4581d95a454f25f78c
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 02:23:28 2020 +0800
+
+    Add changelog generation in release pipeline
+
+commit e7cb807aabc85419eea5915707766fa9b09f54a7
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 02:11:35 2020 +0800
+
+    Use installer script to install kubefire cli
+
+commit 10a4fddcba774d135301c3be90e0a9cd99a21824
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 26 02:09:21 2020 +0800
+
+    Use installer script to install kubefire cli
+
+commit d4a349a45d984dfa35b7ec847350583a1507cd78
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 17:44:56 2020 +0800
+
+    Update readme
+
+commit 13c0514b38b06695b7dde95bb18c559c4939ef82
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 17:44:32 2020 +0800
+
+    Update readme
+
+commit 7ae48f88d9e2c611e79f716c6d626d96498f2f50
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 17:41:19 2020 +0800
+
+    Update readme for the next release
+
+commit 7c64bd91f889d46ae9625a34aa0511a641070de7
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 15:24:31 2020 +0800
+
+    Change log level to error when running 'info' command
+
+commit d8c896495ea6ae47542a475ac193813984e12257
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 15:17:12 2020 +0800
+
+    Change kubeconfig commnad to subcommands 'kubeconfig get/download'
+
+commit f06c7fe82e9da963ac3a05b37a3d0832c575e01a
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 15:03:36 2020 +0800
+
+    Add 'kubefire kubeconfig' to get/download kubeconfig of cluster instead of 'cluster download'
+
+commit f595ce5f45d5c7810599d147ee48a1575709dbc5
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 11:07:25 2020 +0800
+
+    Update description
+
+commit de99db13ec7e8db82f9aa3b99b9a32f070c13ab2
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 11:06:27 2020 +0800
+
+    Fix issues of github api rate limit when running tests
+
+commit b2a3d85f15b8693eb144e90781ead60734c1a6c3
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 25 10:43:31 2020 +0800
+
+    Support 'kubefire info -b' to show supported Kubernetes versions
+
+commit a3cb4f8ead6579c05bfe2b604d2d8e8fe71d0575
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 23:07:22 2020 +0800
+
+    Add a note to fix the issue in skuba about multiple failed ssh auth
+
+commit a0a885d1a7e8a6006652073548cebe959ab8e5c3
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 23:04:23 2020 +0800
+
+    Fix test case
+
+commit 8a56577891e5ff2b9f4ca4f311714dd187d92a65
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 22:56:23 2020 +0800
+
+    Fix skuba deployment failure in single master case
+
+commit bbf603a4c86c76fb08eb57054e6260cdc37485b3
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 17:21:38 2020 +0800
+
+    Fix #5 support patch version installation
+
+commit 94b4715ae9fb28f4b1edee240346918edb97242e
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 01:35:00 2020 +0800
+
+    Update readme
+
+commit 3cff20333c00ebc1f49b2679b764e73f59f85847
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 24 01:30:03 2020 +0800
+
+    Update short description of cli
+
+commit af34e7dda58021227176b3b1e8228145098e7270
+Author: David Ko <dko@suse.com>
+Date:   Sun Aug 23 00:30:54 2020 +0800
+
+    Add 'test' step in CI pipelines
+
+commit ab4cbcc5b4eff5d538e762362dc05b060e0d6506
+Author: David Ko <dko@suse.com>
+Date:   Sun Aug 23 00:22:28 2020 +0800
+
+    Fix #5 add '--cached' to support keeping version caches or not
+
+commit d8c0d31d5cfd19836a6de1398de7a1fb25ed7a7f
+Author: David Ko <dko@suse.com>
+Date:   Sat Aug 22 23:42:11 2020 +0800
+
+    Fix #5 support selected supported bootstrapper versions
+
+commit 52fc08df84b2656989778618ed951985ae4e73f6
+Author: David Ko <dko@suse.com>
+Date:   Fri Aug 21 00:38:59 2020 +0800
+
+    Simplify PHONY target with MAKECMDGOALS
+
+commit 8015713a72c06f1dc8d50bcd099c6a635791d46d
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 20 13:28:49 2020 +0800
+
+    Add aliases for commands
+
+commit 897e7f105267cf26c72306be592b3c36affc04a8
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 20 13:21:33 2020 +0800
+
+    Fix incorrect tag name when working at master w/o any modification
+
+commit c98606015e574e913ef1e6d5dc99112f78736bac
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 20 10:24:55 2020 +0800
+
+    Update containerd to 1.4.0 and use 'dirty' in tagversion when working at master
+
+commit 83be898540d8d842e660107925810c6accaf39dc
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 20 10:22:00 2020 +0800
+
+    Download released cni patch when working at master branch
+
+commit e69701d13658c38e7fa035e2e4da4a6d6b9cd476
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 20 09:39:25 2020 +0800
+
+    Add artifacts in target recursively when releasing
+
+commit e3ef3cc387918fa505c877e3710c72affae30d00
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 19 13:34:36 2020 +0800
+
+    Fix #10 support complete node/cluster commands
+
+commit 87fdb59b38fdd3d1e0b865c35f7a62acff0040ba
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 19 13:31:45 2020 +0800
+
+    Fix #10 support complete node/cluster commands
+
+commit d33c7a7954bfeb886539db7c034eef5a91dab946
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 19 13:01:08 2020 +0800
+
+    Move some code from makefile to hack
+
+commit 83b5ddc3400d7e3c1e28cef3f3ed0e2264f7bb7f
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 18 01:11:13 2020 +0800
+
+    Update README.md
+
+commit 94977281133e95aba73f21ee3ed6791ef3c37831
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 18 00:16:53 2020 +0800
+
+    Add quickstart
+
+commit 2e58dd7c49d82ca362cc43cf437324cf6ccaad6d
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 18 00:16:29 2020 +0800
+
+    Add quickstart
+
+commit 228ec69e7827126838f75bf4232c6821c6a0dc78
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 19:50:06 2020 +0800
+
+    Update readme
+
+commit 56b71ba72a633967d44dd0447410e00c8e60d7c3
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 18:21:57 2020 +0800
+
+    Update readme
+
+commit d42045e0d99a608227f591878fac07f5c49c79e2
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 18:04:16 2020 +0800
+
+    Enable force to download install/uninstall script when tag is master
+
+commit 153030a38e9da2ea41dd60bb0d297247e3697256
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:58:23 2020 +0800
+
+    Force downloda script when running install/uninstall
+
+commit f1dd6ef2bc7f6a81867c36932ef8756dc4b510dd
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:50:56 2020 +0800
+
+    Download script by the release tag
+
+commit bc7e0da08b6e154b92c1478974905651fa8942fb
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:46:23 2020 +0800
+
+    Fix containerd download url
+
+commit 960ebcea0cda3f31fe8ffc1e4e85952fb8688a2e
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:43:58 2020 +0800
+
+    Fix host-local-rev permission
+
+commit 4cdd3b0e9d802268babe8e64887fbb4fd3224b62
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:35:40 2020 +0800
+
+    Clean temp folder before running install scritps
+
+commit 76a2cca4ff0bb5885e667f316b8fc5dc96735772
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:27:33 2020 +0800
+
+    Support CNI plugin/kubefire-cni-bridge
+
+commit cc9a76bfa70551022f5884e182d01176ccdbc743
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:17:54 2020 +0800
+
+    Enable cni patch download
+
+commit ab10cf108b395057e6e18d56f015501cc031d2fe
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:13:47 2020 +0800
+
+    Fix release pipeline
+
+commit bf1f8903742f98b451549098f2b5824007b792be
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:05:57 2020 +0800
+
+    Fix release pipeline
+
+commit b07d2e5d3780118964d93ceeb893b44652854a27
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 17:01:51 2020 +0800
+
+    Fix release pipeline
+
+commit 2598e34d3a22cde9f076536f74cdfd32b2d1f0ed
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:59:20 2020 +0800
+
+    Add release pipeline
+
+commit bb05182c026a88ace1b3533c6c5c335786d9f441
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:56:09 2020 +0800
+
+    Fix golangci-lint issue
+
+commit 9dd9e2b33f1b73b25265eb257164879042862dbf
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:53:30 2020 +0800
+
+    Fix golangci-lint issue
+
+commit dab4094be462809469a984a4793ac063d8ba461b
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:20:05 2020 +0800
+
+    Add build step golangci-lint
+
+commit a7b46233524dcc89ca6ca2090ce24c4ed168ba5c
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:16:19 2020 +0800
+
+    Add build step golangci-lint
+
+commit 71d6b9b3a403a4a00f6ef8fd6a9f599af1743e6b
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:14:10 2020 +0800
+
+    Add build step golangci-lint
+
+commit d4b1b3d4dc315f5c03e9d4d190a801c07ce87132
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:09:16 2020 +0800
+
+    Add build step golangci-lint
+
+commit 5a667f11752dd65c39ca34c3eaa8b685271733b7
+Author: David Ko <dko@suse.com>
+Date:   Mon Aug 17 16:07:01 2020 +0800
+
+    Support cluster start/stop
+
+commit da9350db53a24c7bf3c160cf63fdf43eaa465a93
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 6 21:18:10 2020 +0800
+
+    Rephrase some message
+
+commit a2e67dead2f5f4d86ad749a0d38f071eadae6fc6
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 6 01:51:40 2020 +0800
+
+    Update readme
+
+commit 9606d56e6df0e60b3970f054cb5494c39c189486
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 6 01:35:09 2020 +0800
+
+    Update demo videos
+
+commit 8dabfda363739ab5b8c4ce16ef67147069071863
+Author: David Ko <dko@suse.com>
+Date:   Thu Aug 6 00:01:48 2020 +0800
+
+    Fix typo in the uninstall prerequisites script
+
+commit f61d27a930d2892ba39fde1bd3cf2a50c8741d8f
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 5 23:39:58 2020 +0800
+
+    Fix error of 'kubefire uninstall'
+
+commit a410f98e9f3cc0421aedf02040abbcf83beeaea8
+Author: David Ko <dko@suse.com>
+Date:   Wed Aug 5 22:43:47 2020 +0800
+
+    Add 'kubefire info' to show runtime info
+
+commit fd46a1bc1a48d8cfc209c04255f9a2bc433cb85c
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 23:55:06 2020 +0800
+
+    Align log format
+
+commit dab2592a08f9739f2c001f0dab83f42de0679a1c
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 22:42:21 2020 +0800
+
+    Add feature request template
+
+commit 3c58937c2d4904a310e64be701822f0f2f6dceeb
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 22:40:34 2020 +0800
+
+    Add bug issue template
+
+commit af3ebf1985857d44f6a0137c873e1599dcfdb070
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 20:29:02 2020 +0800
+
+    Fix format error
+
+commit 163a5e49b5a3c6edf62b00629be7cbb061a94c1b
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 17:30:03 2020 +0800
+
+    Support deleting more than 1 cluster
+
+commit b4d1cab401b4d66d6ab561754922c928391a8f53
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 15:45:14 2020 +0800
+
+    Move bootstrapper related code to bootstrap pkg
+
+commit 52c5b827dd852d288e12af715b63f461c145ba9b
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 15:18:40 2020 +0800
+
+    Update readme
+
+commit 6bebed771581cd8ba8be72035bd9effdd72ddd17
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 15:08:17 2020 +0800
+
+    Add 'kubefire cluster env' command to dump KUBECONFIG envvar
+
+commit 86937de0a7de25f8f7bd160dc512d5b2a18addf8
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 12:26:04 2020 +0800
+
+    Add bootstrapper value validation during cluster create
+
+commit 0f91f0abf3efe78eeeeb1f35309b90b10325706c
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 12:13:24 2020 +0800
+
+    Support detailed log format
+
+commit 02d7a1df9aea7226d5b99d7096c7fce554190789
+Author: David Ko <dko@suse.com>
+Date:   Tue Aug 4 00:51:33 2020 +0800
+
+    Fix error when getting nodes with cluster name prefix
+
+commit 07a3ec643ca04003a536c5439bf76105f8fb3ca7
+Author: David Ko <dko@suse.com>
+Date:   Sat Aug 1 21:51:39 2020 +0800
+
+    Update readme
+
+commit 28de9afdffa4a4cbbf87ac806a2d3c6c4266b81c
+Author: David Ko <dko@suse.com>
+Date:   Fri Jul 31 22:23:05 2020 +0800
+
+    Use kernel 4.19 as the default instead of 5.4
+    
+    For now, k3s deployment is only supported in less then 5.4
+    kernel version. To make user operate eaily without an extra kernel-image
+    option specifying 4.19 kernel instead of 5.4, so change the default
+    kernel to 4.19 to be the behavior as kubeadm deployment w/o pointing to
+    a non-default kernel image.
+
+commit 9185423192a27ce08cf0900b212e7e26dce6c676
+Author: David Ko <dko@suse.com>
+Date:   Thu Jul 30 15:21:33 2020 +0800
+
+    Support K3s extra installation options
+
+commit 61c89a5c198b837a5b4aec064a635627cbcd5197
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 13:28:18 2020 +0800
+
+    Update to K8s, K3s 1.18.6
+
+commit 01f76320a1605e374b2f915eddd4f8c5b789fdf4
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 13:20:27 2020 +0800
+
+    Use variable assignment := instead of = to avoid later expression evaluation
+
+commit 22c934443931b86840b5ead3f70f1c026c929427
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 13:11:15 2020 +0800
+
+    Add timestamp in the build verion
+
+commit 403601134fa6915b666dff9925edfab8e3b00528
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 13:08:00 2020 +0800
+
+    Update the default rootfs image to leap 15.2
+
+commit 383221896d57c5f42d31eec650c6b9c6ae3ab8cb
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 13:06:27 2020 +0800
+
+    Support opensuse leap 15.2
+
+commit 3cb5b525ba256fad87f544c3522dc4e917338736
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 12:53:56 2020 +0800
+
+    Update to K8s 1.18.6 and ignite 0.7.1
+
+commit 3de95e1c380409cba185125a274ccbe1cc5f1c38
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 28 12:49:46 2020 +0800
+
+    Support make build-kernels
+
+commit 041fbfedbfd9a94dcf1c7bb4c0cfd65d7ec18f1c
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 8 01:46:27 2020 +0800
+
+    Update readme
+
+commit dc96999268659f54f24f4c512a0f146e7683e91f
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 7 20:51:23 2020 +0800
+
+    Fix wrong local kubeconfig path
+
+commit b7ec8890dcc7514514afde03389de4c8f486ea02
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 7 17:19:57 2020 +0800
+
+    Support K3s bootstrapper
+
+commit e56aec2fd0765b27956f8324c79f64e444f74615
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 7 13:18:01 2020 +0800
+
+    Add k3s prerequisites script
+
+commit a77073fc13f18b986d2cc1dfe1e450e30e4b4294
+Author: David Ko <dko@suse.com>
+Date:   Tue Jul 7 00:21:12 2020 +0800
+
+    Add ubuntu 18.04 support
+
+commit 5d9021f0ad02e573e7881f1761bae8125e99b935
+Author: David Ko <dko@suse.com>
+Date:   Thu Jul 2 13:14:06 2020 +0800
+
+    fix log
+
+commit 955cb731ae0773a1bc65d0a43bc0aebc419f1a93
+Author: David Ko <dko@suse.com>
+Date:   Thu Jul 2 13:10:13 2020 +0800
+
+    Add  command to download kubeconfig
+
+commit 9d07bdcd99092f6a47859195da589efe233d13c9
+Author: David Ko <dko@suse.com>
+Date:   Thu Jul 2 11:12:03 2020 +0800
+
+    Fix typo
+
+commit b0e547b1586a7150be6e4fc7384497e2244aa407
+Author: David Ko <dko@suse.com>
+Date:   Thu Jul 2 11:10:44 2020 +0800
+
+    Fix centos:8 rootfs image w/o ssh-client installed
+
+commit 15eee4deb32f1b351e4de2750bbfed9a6ea00313
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 01:45:04 2020 +0800
+
+    Update README.md
+
+commit ea0dec1f6d71a73d012dce454c17d15cb86975ae
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 01:40:44 2020 +0800
+
+    Update README.md
+
+commit 3cf915476960e59769d5209e6b4dc1bde0de42f1
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 01:33:47 2020 +0800
+
+    Create LICENSE
+
+commit b36286a2fd88cf696d367cabcd801023d035dcde
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 01:25:24 2020 +0800
+
+    Update README.md
+
+commit e205cfb036346071b1ff984ccb317605ead0ed7f
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 01:21:06 2020 +0800
+
+    Support centos n ubuntu rootfs
+
+commit c10100a5c4c6e851af8cef5c71d5176b308b9a1d
+Author: David Ko <dko@suse.com>
+Date:   Wed Jul 1 00:19:56 2020 +0800
+
+    add readme
+
+commit fade842247a3d6fb33d23fcf9d00faae97cca0d6
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 30 12:20:30 2020 +0800
+
+    disable swap
+
+commit 3a6d7a6d1a92b67c23154820a3a6e3877718c801
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 30 01:42:05 2020 +0800
+
+    fix typo
+
+commit 50b6121aa337a84739a8040f83a69e58b9938971
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 30 01:35:07 2020 +0800
+
+    Adjust image name
+
+commit 8cfe16fd9f6acc52d8c5196c5230bab0857b2ad3
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 30 00:56:41 2020 +0800
+
+    Remove needless package installation
+
+commit 7dd60b36876df438568cdab9c91efb027926a174
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 30 00:10:50 2020 +0800
+
+    Format
+
+commit 6313cbcae3a862db5add31ee4a3d3dd03c46feb0
+Author: David Ko <dko@suse.com>
+Date:   Mon Jun 29 23:19:06 2020 +0800
+
+    Update K8s version to 1.18.5
+
+commit e3a86f9810d24036308750767cbb9767a8f2d186
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 16:43:02 2020 +0800
+
+    refactor
+
+commit baaa5b54406c9dd0a9734bf9c5ecf858df04badc
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 15:28:25 2020 +0800
+
+    Add missing apparmor kernel options
+
+commit b631d4e1160e7e58e230ab4d96f8f7321cf26d7b
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 13:07:22 2020 +0800
+
+    remove br_netfilter check from skuba
+
+commit 06750b41ee58b2d659ecaa189e3c6b3be0ed481b
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 01:36:33 2020 +0800
+
+    update skuba bootstrapper
+
+commit 3928b5873bdf16f938808fdc619e60ee7d45e303
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 00:35:50 2020 +0800
+
+    update install skuba script
+
+commit a29f33704fe64ed011c4c78acb098e259c38f3b2
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 00:33:36 2020 +0800
+
+    update install skuba script
+
+commit 15c46594e3896b1752dbc34a5eb9d7c5e6c4c69f
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 00:29:31 2020 +0800
+
+    update install skuba script
+
+commit 57e65a2c042d4cd41630b485449994d08bfbca50
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 24 00:22:48 2020 +0800
+
+    update install skuba script
+
+commit 809a71824dc4e1e0108027af667d8d30c5398aba
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 23 23:39:48 2020 +0800
+
+    add skuba bootstrapper
+
+commit c514bc22ac0acea039f1023bf2f533f5f1c7f8fa
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 23 20:38:08 2020 +0800
+
+    Support kubeadm join node
+
+commit 39050cef8436c48afcd8dce60ca5d00c106171a0
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 23 18:49:02 2020 +0800
+
+    refactor
+
+commit c71db2037c0637a54b0e14f6987f369fa3519916
+Author: David Ko <dko@suse.com>
+Date:   Tue Jun 23 01:32:48 2020 +0800
+
+    Support kubeadm deployment
+
+commit 930bc903dabf8916a8e85089ec2e05d83eb81cfa
+Author: David Ko <dko@suse.com>
+Date:   Mon Jun 22 01:44:16 2020 +0800
+
+    Add kubeadm bootstrap
+
+commit bbf26a50c3d0b6770bd080320b734566b2d79c7a
+Author: David Ko <dko@suse.com>
+Date:   Sun Jun 21 00:21:44 2020 +0800
+
+    Fix error to check cni version
+
+commit 1ad316deca160fb1af4f0b81261156193c2005a7
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 20 23:57:35 2020 +0800
+
+    Fix typo
+
+commit fade7688fa5f9c69f828bc3cf5aff99131d52d89
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 20 23:51:19 2020 +0800
+
+    Add install and uninstall cmd
+
+commit 47f19ebebd8a3c6d9d3cee5ac44c7e09fbfa619c
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 20 01:22:34 2020 +0800
+
+    Add version check in install* scripts
+
+commit b8eb008dc805ece94c5022ca5f51040f3ec126de
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 20 00:44:23 2020 +0800
+
+    Add prerequites scripts
+
+commit 4eb6530ccf047436aa1b46bc3eaa18f72e268fc2
+Author: David Ko <dko@suse.com>
+Date:   Fri Jun 19 02:02:43 2020 +0800
+
+    Update prerequisites scripts
+
+commit 7a779edf028c59af94f6c8f4ac4cd1b285b16975
+Author: David Ko <dko@suse.com>
+Date:   Fri Jun 19 01:58:35 2020 +0800
+
+    Add kubeadm script
+
+commit ca8b88d2ca18f753e8542958edd3e7e7051e2017
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 13 02:20:14 2020 +0800
+
+    Support ssh
+
+commit 046f928ec7c8b236f14318008e9f00b3fdfc3c5b
+Author: David Ko <dko@suse.com>
+Date:   Fri Jun 12 14:04:08 2020 +0800
+
+    Format and enhance logging
+
+commit 0498af1e5ab8719d3f1edbb156aba984182cfc43
+Author: David Ko <dko@suse.com>
+Date:   Thu Jun 11 00:48:53 2020 +0800
+
+    Add logs
+
+commit cf3776947202ccaf26f2d41cddf6a06d2f2e67ac
+Author: David Ko <dko@suse.com>
+Date:   Thu Jun 11 00:16:51 2020 +0800
+
+    Rename var names
+
+commit bbac3669aae6fddad71d5e9d3f288e6c738eb123
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 10 17:26:34 2020 +0800
+
+    Make admin node 0 by default
+
+commit 162daaf55811b6d77f2f99f9b43457a809304cfa
+Author: David Ko <dko@suse.com>
+Date:   Wed Jun 10 17:22:16 2020 +0800
+
+    Fix cluster management functions
+
+commit 058a5d3198eb26890040fc10a9c590bc694052dd
+Author: David Ko <dko@suse.com>
+Date:   Mon Jun 8 18:31:20 2020 +0800
+
+    Remove target files
+
+commit 9fdfa3eabeabddd6a7447192b8e64ec7f57255ea
+Author: David Ko <dko@suse.com>
+Date:   Mon Jun 8 18:30:27 2020 +0800
+
+    Support clustre config management
+
+commit 5634663deb1f45970e090f02374fbe90052eba0e
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 6 02:25:08 2020 +0800
+
+    Update makefile to include build/publish kernel target
+
+commit 679aa29081fea471b559cd388e636864ef7caae6
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 6 02:17:39 2020 +0800
+
+    Add kernel build info & format
+
+commit 3284db6509baea25c45bde546d0ae5010300240e
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 6 01:24:09 2020 +0800
+
+    Update readme
+
+commit d4d2a2f0caf9b90bbbefce3ea76081b94623b29a
+Author: David Ko <dko@suse.com>
+Date:   Sat Jun 6 01:20:41 2020 +0800
+
+    Reorg
+
+commit d52de326a8dfedcf4713cd9d084ee70e7c1f0486
+Author: David Ko <dko@suse.com>
+Date:   Thu May 14 09:59:44 2020 +0800
+
+    Add readme

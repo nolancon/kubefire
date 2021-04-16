@@ -149,7 +149,7 @@ function install_ignite() {
 
     curl -sfSLo $binary "$f"
     chmod +x $binary
-    sudo mv $binary /usr/local/bin
+    sudo mv $binary /root/go_projects/bin
   done
 }
 
